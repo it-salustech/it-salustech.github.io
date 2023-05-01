@@ -1,0 +1,101 @@
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #73c2fb;
+  color: white;
+  font-size: 30px;
+}
+
+
+body { margin: 0 !important; padding: 0 !important; width: 100% !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',"Open Sans", arial !important; }
+.container {position: relative; overflow: hidden; height: 60vw; background-image:url(https://lh3.googleusercontent.com/fife/APg5EOZw3Rgbtyz-Bz_H-e5oVefWwrOKrziBEaHTy0FPl2UlwpaAag7nPDhDb7W5nnD7DRY8zBIbf84hK4HbkRu2qVvqkQf_RWTLdUrMs_QL67J4hb58AGDga6Dn4XpvRsgyEPLG_VANaVpTkbbXV8h5ehCnmRRCARXEHBy3NngU9YbmL-S4c8Ca55kOPtb6343oYpzJm8-tDTeOaPAr8MA3w7NnrdNTVzX6-UR0qugxDUMTNVxYcJDfmkgZQ94-1VSlrYn-IdRVIWd3GwuGvQv1fL1wX12ptAKkKNFM8ezhL8WKnMyex5DtwkCrtmbV8PUtObGnACbxqHcBjMaYIG1My_CBxiTwrvJ7JtrHrBb4KbFlkAhTO_qys8PLHfXcz9XrOFEusSzdkHZW_z9jZadnf-qWJ0B66l9LZNG0r6wtUSGvaYUslBlRsu4RkXYFBKY2EUwyqP3aew4SiMPql7Pt-PYZi0PtCqcoeojYnyZ16uXKQxnWD02K2ONwHnvwkgN0Qv1C11qrHLW8ySChN4NEfjW7cs0i4tAPKQ2lcw7JekkZBvmOJ6ychuva9Q8apGAHicz0Jlub2DJfA3F9Jy2QZ9tb-uEEAUDxUQo56S7qwzR1DH9uYOs1V4ZjtuT7bdtf356NACOsz0pH5zmAvGx5OQzSB-FvZxwqgHmJ1UEnoyOo3BAK7Nb2QfPtu4d-B525Ak3zfwANFJlEX_TesUGfTS02L7Y0Ehear1T-wCdKfBbtWDHcQzL0BhVT6amyTgwDTjzB0w7GM8bcBM-hFLkl0EXgWnSJZtPsth6ZhUuI-KKobDZ7z3iDWJQ7uKlU-LctbQO7VxflQzttCRxH6sQhP-4-ETp69Ttd7nOjiOJGXhCWxXWK0ThLoqVGh1E-L4gq68tsmGAYxwViQinJKOZQx7fOwvRm2AveIR7pBSsZSfn2UkVwxK4Nx8zWubfNj_abeS1qS7xFKuqxBhAfmbs_RaxvJZgrxpy44bw4xuhdfFshW3QdugglVIjBDtY1knFvDrwX5qzSmZAgaDnBTCNHBEzhR2OmlNE5OFsu6i2QLl3V3FFnu90IFmlzlVhY2nrefwrrnq1AMUpq5HI8AAV4xUMuECAlBZXBuWcHb50rfpKV5SBitVjGyysl1uc2YMM68dYewvXwMe3-5Mqq5V8EX4_r5iqjUhme_-ZayjJVFRD-4tiaOUV7evjp4xy6zQcOMqfPwmjp7ETDYE003J5CeI-HvaWiEO-JCM2fcPYzWPCCfEa9F2PsHSTdgBhWjU-u9mz68uVYByah2hBw9rA4kV6Jb66ZGIVvm6oX9vwXcB7peE65sWoD0klbjoiG-Bpm7z8DFqUm7emWcHQgNzYczRrh0uJou2lvNgstYcS0ps_adn5pFNyYtspwY5Tp1O_EiC2ic_I9UiHL57N1V9ReKcmCNV6shMRLGbPTMrt1qq2O-HpBrNOoKKoduh2wzjH0T7KBGwsbdNtzJZOpn8exsFpf-ICW=w1920-h937); background-size: contain; }
+input { display: none; }
+p { margin: 0; }
+.button { color: white; font-weight: bold; font-size: 15px; background-color: #d32f2f; display: block; padding: 4px 10px; border-radius: 100%; cursor: pointer; animation: fadein .5s; animation: pulse 1.5s infinite; }
+.content { background: rgba(236, 236, 236, 0.952); padding: 1rem 1rem 2rem 1rem; text-align: center; display: none; margin: 10%; border-radius: 8px; box-shadow: 0 2px 1px -1px rgba(211,47,47,0); line-height: 0; z-index: 1;}
+.cross { font-weight: bold; }
+
+.legend{line-height: 0.5; background: rgba(255, 255, 255, 0.641); padding: 1rem 1rem 2rem 1rem; display: block !important; height: auto; width: 160px;border-radius: 8px;border: black; border-style: outset;}
+
+.legend {position: fixed; top: 10px; right: 10px;}
+#subhead{line-height: 1.4; font-weight: 500;font-size: small;}
+
+#b1 { position: absolute; left: 14%; top: 33%; }
+#b2 { position: absolute; left: 16%; top: 37%; }
+#b3 { position: absolute; left: 13%; top: 40%; }
+#b4 { position: absolute; left: 16%; top: 43%; }
+#b5 { position: absolute; left: 14%; top: 46%; }
+#b6 { position: absolute; left: 5%; top: 48%; }
+#b7 { position: absolute; left: 3%; top: 41%; }
+#b8 { position: absolute; left: 10%; top: 54%; }
+#b9 { position: absolute; left: 94%; top: 44%; }
+#b10 { position: absolute; left: 95%; top: 54%; }
+#b11 { position: absolute; left: 88%; top: 48%; }
+#b12 { position: absolute; left: 77%; top: 33%; }
+#b13 { position: absolute; left: 62%; top: 33%; }
+#b14 { position: absolute; left: 32%; top: 46%; }
+#b15 { position: absolute; left: 83%; top: 45%; }
+#b16 { position: absolute; left: 69%; top: 44%; }
+#b17 { position: absolute; left: 54%; top: 44%; }
+#b18 { position: absolute; left: 39%; top: 44%; }
+#b19 { position: absolute; left: 24%; top: 44%; }
+
+#input1:checked ~ #content1,
+#input2:checked ~ #content2,
+#input3:checked ~ #content3,
+#input4:checked ~ #content4,
+#input5:checked ~ #content5,
+#input6:checked ~ #content6,
+#input7:checked ~ #content7,
+#input8:checked ~ #content8,
+#input9:checked ~ #content9,
+#input10:checked ~ #content10,
+#input11:checked ~ #content11,
+#input12:checked ~ #content12,
+#input13:checked ~ #content13,
+#input14:checked ~ #content14,
+#input15:checked ~ #content15,
+#input16:checked ~ #content16,
+#input17:checked ~ #content17,
+#input18:checked ~ #content18,
+#input19:checked ~ #content19 { display: block !important; animation: fadein .5s; height: 60px; width: 300px;}
+input:checked ~ label .button { display: none !important; animation: fadeout .5s; }
+
+#content1 { position: sticky; left: 14%; top: 33%; }
+#content2 { position: sticky; left: 16%; top: 37%; }
+#content3 { position: sticky; left: 13%; top: 40%; }
+#content4 { position: sticky; left: 16%; top: 43%; }
+#content5 { position: sticky; left: 14%; top: 46%; }
+#content6 { position: sticky; left: 5%; top: 48%; }
+#content7 { position: sticky; left: 3%; top: 41%; }
+#content8 { position: sticky; left: 10%; top: 54%; }
+#content9 { position: sticky; left: 94%; top: 44%; }
+#content10 { position: sticky; left: 95%; top: 54%; }
+#content11 { position: sticky; left: 88%; top: 48%; }
+#content12 { position: sticky; left: 77%; top: 33%; }
+#content13 { position: sticky; left: 62%; top: 33%; }
+#content14 { position: sticky; left: 32%; top: 46%; }
+#content15 { position: sticky; left: 83%; top: 45%; }
+#content16 { position: sticky; left: 69%; top: 44%; }
+#content17 { position: sticky; left: 54%; top: 44%; }
+#content18 { position: sticky; left: 39%; top: 44%; }
+#content19 { position: sticky; left: 24%; top: 44%; }
+
+
+.button:hover { color: #d32f2f; background: white; }
+.cta { display: inline-block; background: #d32f2f; color: white; padding: 12px 24px; margin-top: 12px; border-radius: 6px; text-decoration: none; transition: all .3s ease; }
+.cta:hover { text-decoration: underline !important; box-shadow: 0 0 0 6px rgba(211, 46, 46, 0.4); }
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes fadeout {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes pulse {
+  from { box-shadow: 0 0 0 0px rgba(211, 47, 47); }
+  to { box-shadow: 0 0 0 15px rgba(0, 0, 0, 0); }
+}

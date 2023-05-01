@@ -1,0 +1,31 @@
+body { margin: 0 !important; padding: 0 !important; width: 100% !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !important; }
+.container { position: relative; overflow: hidden; height: 55vw; background-image:url(https://lh3.googleusercontent.com/fife/APg5EOY47ex_QrqQPQSHU5ZHleAWhv309YP-e6ogNGbjzYLku_VXxsh05MlZ7tMfi7aJK5gUzrt39BcvAs5svC8k7UOQwSl4jBdvmp7XLhvKeMm4N2YZHIn-EVKwjGOiEas3wNE6eIyrsySmYpPr-0K5PP0F4_lOytcQWWPVhrTtIXhooGCpKKoHVkUpKMXEqx8xorb7j42q78aTFM19JrGetUIOYvaEXe-o9TkPJ3hav2AhW1DPDKoFxfL72TY2WC9RuFnBfhvolISr1AK2nNXEOqBvO8TS0W5hKb5CsBJmmkzt3kK90XHuSWvJ8RkOS2ZHx4Z6iMnjF6hAonsX1itMod13qWLcc5ZjY337BTgp0pm6BaoZpups20oips9YQF8YtjWPDob01HTqz4GARtftuBIhIi_UW-Icw40jl5g54PTtcDvD7QnxCqbbfG6_ZgvS6jxtC4RTVX36fMGcJQryED5uzo2SdHYw-XagprPMB_8m5DQ0E53wgRzFo4Kb6rOesv4fEJQAOTbziZFdmBrYgGXrC6AY4sPPQUvIlKWYcjemWVLC6gI6zNeeg_6_YSlqQD32BNKn3RDXkYAObyCq8jtCXOVwxfvdr69jshjLjFVPDYXaZFsCWCbOMRWqsP-apj0MeGSyq7-KkyoF9TSv5QT7nrVSpyS87YVmuBNJT0vw2VgMV5mOtqEfDENyYefUsUlQEvCl_GfwqCPytwyNqnhLuzsmRQ9reTB6ub8kYcTsg7bsduhcHL-H1Wyjj2VsSsTv_cBod4uUPOJglh9axVS-crtUP77ej3SwzTuJseiwnFvw22BjJYshrMZtWlt1MTgxFAFCPgf9MyzBpTErknk9tlRsCY6jD0yUJHbmeqDaeeyhmm0ox1Kza3RJgf41iJyy2et71DkrqyO-1r8HSa8SNvst7cNq_xlEbQs426heqNjOpraoz1Pdrqrc22JlrUZMvuirW0BM5iq3c1YL5aQ5WZEYKMvhrDKAsZvr3sjuZ9HQ2Y3Ger1a8d0_jN-sytgx3Btq2-JwsJps9I5PDxoHSi54bm_nDjgJP6piQc_Eu3ESvbJINlnjEZrAWPedPjF_wNPqNwPsRi8PLkUw8i_f8El3_bzjRdsUKt67ZkcQuKBkQkrzWMM58xf834XyvriqHTQKGHRYbhrIPqAHUKCfp5Q_JvvfmY9qioEdpU8E5CJvCovbF-v5U6cn8jloItD9bLnDUTDaU0s8lhcFSg_6mZfGAhH9lJV9v34B1H9pxkTfVp32puRkuxNw7adp-eWrcdjAhIEmLmN1lsff1m1TMrtm4b3lbNvAwiFjkpgpveVdkCDBrJMCpKuwwvN5nJ02Zpon7OM2E2A4Gf46tQAKs9FZE4puAc4gUZjSFf1ttBH8xfQ1kXHV6hTDrAUPS_riU0X5ZWX8-3079GdHzDs0B_BcxTbMVfNFAaFwDPm1HfhKN37hmVP-MwtM6tUQclePxZ6Ix1MeorFTDb5PzNGhok47=w1920-h937); background-size: contain; }
+input { display: none; }
+p { margin: 0; }
+.button { color: white; font-weight: bold; font-size: 20px; background-color: #d32f2f; display: block; padding: 10px 16px; border-radius: 100%; cursor: pointer; animation: fadein .5s; animation: pulse 1.5s infinite; }
+.content { background: rgba(37, 37, 37, 0.871); padding: 1rem 1rem 2rem 1rem; text-align: center; display: none; margin: 10%; border-radius: 8px; box-shadow: 0 4px 2px -2px rgba(211,47,47,0); line-height: 0; color: white;}
+.cross { font-weight: bold; }
+#b1 { position: absolute; left: 75%; top:25%; }
+#b2 { position: absolute; left: 75%; top: 69%; }
+#input1:checked ~ #content1,
+#input2:checked ~ #content2 { display: block !important; animation: fadein .5s; height: 70px; width: 300px;}
+
+#content1 { position: sticky; left: 75%; top:25%; }
+#content2 { position: sticky; left: 75%; top: 69%; }
+
+input:checked ~ label .button { display: none !important; animation: fadeout .5s; }
+.button:hover { color: #d32f2f; background: white; }
+.cta { display: inline-block; background: #d32f2f; color: white; padding: 12px 24px; margin-top: 12px; border-radius: 6px; text-decoration: none; transition: all .3s ease; }
+.cta:hover { text-decoration: underline !important; box-shadow: 0 0 0 6px rgba(211, 46, 46, 0.4); }
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes fadeout {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes pulse {
+  from { box-shadow: 0 0 0 0px rgba(211, 47, 47); }
+  to { box-shadow: 0 0 0 15px rgba(0, 0, 0, 0); }
+}
