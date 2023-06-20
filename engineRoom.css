@@ -1,0 +1,86 @@
+body { margin: 0 !important; padding: 0 !important; width: 100% !important; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !important; }
+.container { position: relative; overflow: hidden; height: 55vw; background-image:url(https://lh3.googleusercontent.com/fife/APg5EOamYt3wSk1lMP2jiXd3xEi3_mwwOi900adQ_D8mM7kaG4fNq10gL47SHyly0FHnnaTUWxXGHdSkOlb2AhTa1ahC4ByaCKik4p9ltzkMINxTBo21el5tKqCOV_lSLFAgl4tQJv2zmhV8AIea2kZSIf6Gp24jQzvyEydhmqpuTwhCJTfWHC8ewJIVFDue620nxYtzudQ1iVrg4qYMlcsJ_cQzVWGIULnsfcgBKAatLjmghE_Ym2QTP_Ok18K3KpYI2KMeUH1lLB5xImYbDx6CO9G9UGX9BoGbYjaf-ZiRgo49rzol6V7lEchFo4FEa6pEcViB-KnhuEKj1mBItIZtd-Hq68qQl0q-QD7D676BHrtdgvwhq0B13pHHb0jvk8-qMOODpTFsvUyDxsHonTGmgHDdvq79_Kzj7JvDt9z7D9QZHaYk_6pDVhOTf_HNFU8Tjtdg8X9mMsP_cS-CE3ejEsRCoQkhs5lPvSdxoS4m_UEQ4l42uEbFutIARe6B3BcrNZsYaGqgO83myC0OsnH4ggVjnxm0e4a7JqRbe_24vEeN23gNy9dJAX92o5t53IpkwOESQCsvoKkbAI9WJg1yxJlCmN4rlPKHve7Fz-rQU8HSN8YWlaD2Srm4YSvjZuLK_9Bvfv7RazVE4JGAvx6gkF-hGIPlwqeuGkbQo17iLCdqYLTo3gGwFMHiwmTxSSUZU6VCqPcD_TAWSTJpqJVNTgsu-rTRJ0nIxnzPrFwkxycDNFz7_OW7GMg7OfwVY32kUQstceht_PiMEusrrd3rkQAw1JTrVNxft-md7d0zIa08jWnMyrkZPx0FvT-7WtyasVbkJVk478rQltVItRc_EiRn4Ao-Nd1rmbJrDjXQFhSJsJb7LoDCrqufP9tZDhFo6Tf8fhRJRwVm45pY1fn-v_2DfFjtF6aL_11XSN0FwFm_K52G5OD14_HCCTtFGpwtQx7VufEPgXI7NbzfhUY7kW3r15PzJxoq5JD7vs2UiMYAChQq1DTZTyDjf-wrUJSEv4E_z9BAq9NfMxZ08-ATC8YU0yFmVHYy4mgiMMrgl65zGjjqIdyLPWOk7TQukyrfX6CX_2KKU20H5gD1zKPrC_PEVArE4jUMGf8yEW8HmTXMAGD7oyrv0cV0xzlmamza06Hpgcmzo1rlUIYgL3ONIFWTNQ3oDZj1tjw4bECQYxB-EzFMVLlKwUfZxfhYuX4PDi2Tvus2_YjRbVLGHqYX7vV-8_EnpBzQP8ODBQh-IbjWmRPgB2mjDBoFhWv7-dykjTRlmsolGNM6JNg47Eb533DLq48DuVlcvtV_FncRyey2w3Vp9RdkKKhAgaoSH3BTECBx5GN_BlmfYeIaDzLWt01g-Q47hmsxcZ_XvapLyFSqFjBZIgtN8ImPOddjcsvjoBdmZjoOa60JTYlCniDDHjSNRHfuSkPsi7XxDh8pnMQ5FIPcHL1WjIo4_sZz5DnPE2tHc3Bdp5mOlU59Pa-jqN5qdINRWCHafrCEEOR879KaHiEhQYWmruW1HzdpaT3fE_i8QjeNziGP-CBulkud5aqSqI6LfMgGQvlZm-GGdqxZP7IPOpXNvRMGwBQiWjQRHU1DZJqfLKGUh5PrFmSKgBA5nSAXIh-hUXHti8FQdEUF2CI=w1920-h937); background-size: contain; }
+input { display: none; }
+p { margin: 0; }
+.button { color: white; font-weight: bold; font-size: 15px; background-color: #d32f2f; display: block; padding: 4px 10px; border-radius: 100%; cursor: pointer; animation: fadein .5s; animation: pulse 1.5s infinite; }
+.content { background: rgba(37, 37, 37, 0.871); padding: 1rem 1rem 2rem 1rem; text-align: center; display: none; margin: 10%; border-radius: 8px; box-shadow: 0 4px 2px -2px rgba(211,47,47,0); line-height: 0; color: white;}
+.cross { font-weight: bold; }
+#b1 { position: absolute; left: 21%; top: 72%; }
+#b2 { position: absolute; left: 27.2%; top: 72%; }
+#b3 { position: absolute; left: 33.4%; top: 72%; }
+#b4 { position: absolute; left: 39.6%; top: 72%; }
+#b5 { position: absolute; left: 45.8%; top: 72%; }
+#b6 { position: absolute; left: 52%; top: 72%; }
+#b7 { position: absolute; left: 58.2%; top: 72%; }
+#b8 { position: absolute; left: 64.4%; top: 72%; }
+#b9 { position: absolute; left: 70.6%; top: 72%; }
+#b10 { position: absolute; left: 76.8%; top: 72%; }
+#b11 { position: absolute; left: 21%; top: 84%; }
+#b12 { position: absolute; left: 27.2%; top: 84%; }
+#b13 { position: absolute; left: 33.4%; top: 84%; }
+#b14 { position: absolute; left: 39.6%; top: 84%; }
+#b15 { position: absolute; left: 45.8%; top: 84%; }
+#b16 { position: absolute; left: 52%; top: 84%; }
+#b17 { position: absolute; left: 58.2%; top: 84%; }
+#b18 { position: absolute; left: 64.4%; top: 84%; }
+#b19 { position: absolute; left: 70.6%; top: 84%; }
+#b20 { position: absolute; left: 76.8%; top: 84%; }
+#input1:checked ~ #content1,
+#input2:checked ~ #content2,
+#input3:checked ~ #content3,
+#input4:checked ~ #content4,
+#input5:checked ~ #content5,
+#input6:checked ~ #content6,
+#input7:checked ~ #content7,
+#input8:checked ~ #content8,
+#input9:checked ~ #content9,
+#input10:checked ~ #content10,
+#input11:checked ~ #content11,
+#input12:checked ~ #content12,
+#input13:checked ~ #content13,
+#input14:checked ~ #content14,
+#input15:checked ~ #content15,
+#input16:checked ~ #content16,
+#input17:checked ~ #content17,
+#input18:checked ~ #content18,
+#input19:checked ~ #content19,
+#input20:checked ~ #content20 { display: block !important; animation: fadein .5s;  height: 70px; width: 300px;}
+input:checked ~ label .button { display: none !important; animation: fadeout .5s; }
+
+#content1 { position: sticky; left: 21%; top: 72%; }
+#content2 { position: sticky; left: 27.2%; top: 72%; }
+#content3 { position: sticky; left: 33.4%; top: 72%; }
+#content4 { position: sticky; left: 39.6%; top: 72%; }
+#content5 { position: sticky; left: 45.8%; top: 72%; }
+#content6 { position: sticky; left: 52%; top: 72%; }
+#content7 { position: sticky; left: 58.2%; top: 72%; }
+#content8 { position: sticky; left: 64.4%; top: 72%; }
+#content9 { position: sticky; left: 70.6%; top: 72%; }
+#content10 { position: sticky; left: 76.8%; top: 72%; }
+#content11 { position: sticky; left: 21%; top: 84%; }
+#content12 { position: sticky; left: 27.2%; top: 84%; }
+#content13 { position: sticky; left: 33.4%; top: 84%; }
+#content14 { position: sticky; left: 39.6%; top: 84%; }
+#content15 { position: sticky; left: 45.8%; top: 84%; }
+#content16 { position: sticky; left: 52%; top: 84%; }
+#content17 { position: sticky; left: 58.2%; top: 84%; }
+#content18 { position: sticky; left: 64.4%; top: 84%; }
+#content19 { position: sticky; left: 70.6%; top: 84%; }
+#content20 { position: sticky; left: 76.8%; top: 84%; }
+
+
+.button:hover { color: #d32f2f; background: white; }
+.cta { display: inline-block; background: #d32f2f; color: white; padding: 12px 24px; margin-top: 12px; border-radius: 6px; text-decoration: none; transition: all .3s ease; }
+.cta:hover { text-decoration: underline !important; box-shadow: 0 0 0 6px rgba(211, 46, 46, 0.4); }
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes fadeout {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes pulse {
+  from { box-shadow: 0 0 0 0px rgba(211, 47, 47); }
+  to { box-shadow: 0 0 0 15px rgba(0, 0, 0, 0); }
+}

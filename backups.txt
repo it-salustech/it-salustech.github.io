@@ -1,0 +1,80 @@
+<ul class="menu">
+			<li><a href="#">Decks</a></li>
+			<li><a href="#">Element 2 <i class="fa fa-chevron-down"></i></a>
+				<ul>
+					<li><a href="#">Sub-Element #1</a></li>
+					<li><a href="#">Sub-Element #2</a></li>
+					<li><a href="#">Sub-Element #3</a></li>
+					<li><a href="#">Sub-Element #4</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Element 3</a></li>
+			<li><a href="#">Element 4 <i class="fa fa-chevron-down"></i></a>
+				<ul>
+					<li><a href="#">Sub-Element #1</a></li>
+					<li><a href="#">Sub-Element #2</a></li>
+					<li><a href="#">Sub-Element #3</a></li>
+					<li><a href="#">Sub-Element #4</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Element 5</a></li>
+			<li><a href="#">Element 6</a></li>
+			<li><a href="#">Element 7 <i class="fa fa-chevron-down"></i></a>
+				<ul>
+					<li><a href="#">Sub-Element #1</a></li>
+					<li><a href="#">Sub-Element #2</a></li>
+					<li><a href="#">Sub-Element #3</a></li>
+					<li><a href="#">Sub-Element #4</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Element 8</a></li>
+		</ul>
+
+
+        ////JS
+
+        $(document).ready(function() {
+	$('.menu li:has(ul)').click(function(e) {
+		e.preventDefault();
+
+		if($(this).hasClass('activado')) {
+			$(this).removeClass('activado');
+			$(this).children('ul').slideUp();
+		} else {
+			$('.menu li ul').slideUp();
+			$('.menu li').removeClass('activado');
+			$(this).addClass('activado');
+			$(this).children('ul').slideDown();
+		}
+
+		$('.menu li ul li a').click(function() {
+			window.location.href = $(this).attr('href');
+		})
+	});
+});
+
+///Cargo Holds
+
+<li><a href="#">Cargo Hold, Hatches & Covers <i class="fa fa-chevron-down"></i></a>
+				<ul>
+					<li><a href="#">Cargo Holds <i class = "fa fa-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Cargo Hold No:1</a></li>
+              <li><a href="#">Cargo Hold No:2</a></li>
+              <li><a href="#">Cargo Hold No:3</a></li>
+              <li><a href="#">Cargo Hold No:4</a></li>
+              <li><a href="#">Cargo Hold No:5</a></li>
+            </ul>
+          </li>
+					<li><a href="#">Hatches & Covers <i class = "fa fa-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Hatch & Cover No:1</a></li>
+              <li><a href="#">Hatch & Cover No:2</a></li>
+              <li><a href="#">Hatch & Cover No:3</a></li>
+              <li><a href="#">Hatch & Cover No:4</a></li>
+              <li><a href="#">Hatch & Cover No:5</a></li>
+            </ul>
+          </li>
+				</ul>
+			</li>
+      <li><a h
